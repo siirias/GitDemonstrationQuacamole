@@ -1,0 +1,10 @@
+- Rehearse basic Git commands
+- Create a new repository to refresh the memory
+- create ssh-keys to be used with git or fmi/git
+- Create new repository on github (and a copy to fmigithub, why not)
+- See how new members are added to the repository
+- cloning the repository. (If private, permissions must be given)
+- committing changes to remote repository
+- co-operating, pulling changes.
+- if time permits, resolving conflicts 
+
