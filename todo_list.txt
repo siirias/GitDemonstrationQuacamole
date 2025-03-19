@@ -1,4 +1,4 @@
-- Rehearse basic Git commands
+- Rehearse basic Git commands throughoutly
 - Create a new repository to refresh the memory
 - create ssh-keys to be used with git or fmi/git
 - Create new repository on github (and a copy to fmigithub, why not)
