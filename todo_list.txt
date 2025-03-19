@@ -6,5 +6,6 @@
 - cloning the repository. (If private, permissions must be given)
 - committing changes to remote repository
 - co-operating, pulling changes.
-- if time permits, resolving conflicts 
+- if time permits, resolving conflicts
+- next todo 
 
