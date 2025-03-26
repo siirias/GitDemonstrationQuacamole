@@ -1,3 +1,5 @@
 This is a sample repository for learning Git, and maybe GitHub too.
 Version control helps track changes in files over time.
 Git allows multiple people to collaborate on projects efficiently.
+
+Learning git is a lot of fun.
