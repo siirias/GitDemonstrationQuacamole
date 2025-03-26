@@ -1,0 +1,43 @@
+Exercice number 1 in getting to know GIT and Github (.com or .fmi.fi)
+
+The exercise consists of the following parts:
+1 - Create an account (if you don't already have one) on github.com and/or github.fmi.fi (this will need help from IT)
+	Also note that acces to .fmi.fi requires you to be in internal network.
+
+2 - Locate and clone the practice repository:
+	https://github.fmi.fi/siirias/GitDemonstrationQuacamole
+	or
+	https://github.com/siirias/GitDemonstrationQuacamole
+
+3 - From there you should find a file called exercise_number1.txt. Add your name to the list of persons successfully completing this exercise.
+
+4 - Unless you were already added as a collaborator to either repository, message Simo your GitHub account name.
+    He'll add you to the project so you can contribute your changes.
+
+5 - Push your changes into either repository to record your success.
+
+Providing you manage to do all these steps, you should have the rudimentary understanding of
+how Git and GitHub work, and be able to test co-operation with others.
+
+Also, there is a text file for questions and suggestions. With your new powers, feel free to add there ideas.
+
+
+Useful git commands:
+
+# Clone the repo (pick one)
+git clone git@github.fmi.fi:siirias/GitDemonstrationQuacamole.git
+# or
+git clone git@github.com:siirias/GitDemonstrationQuacamole.git
+
+# Make your change
+# (edit exercise_number1.txt with your name)
+
+# Stage and commit your change
+git add .
+git commit -m "Added [Your Name] to the list"
+
+# Push to the repo
+git push origin main
+
+------------------
+Persons successfully passed this exercise:
