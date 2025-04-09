@@ -2,3 +2,5 @@ Add here any questions or wishes on topics
 that could be discussed in next session(s).
 
 (Ivia) How to manage issues in GitHub? What are those exactly, how to open/close/work with them?
+
+I would like hear a recap of the things we have learned so far.
