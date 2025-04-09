@@ -8,7 +8,6 @@ I also would like to see more illustrative examples on using git.
 
 I would like hear a recap of the things we have learned so far.
 
-Simo should explain how the two-repositories interact
-
+How can we create new repositories?
 
 
