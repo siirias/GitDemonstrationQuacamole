@@ -2,4 +2,5 @@ Add here any questions or wishes on topics
 that could be discussed in next session(s).
 
 I would like hear a recap of the things we have learned so far.
+I also would like to see more illustrative examples on using git.
 
