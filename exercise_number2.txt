@@ -52,6 +52,10 @@ You will actually get instructions from GitHub now on how to link your repositor
 Basically, you need commands like these:  
 (These commands go in the same Git Bash, in the same directory as the earlier ones)
 
+NOTE: adress can be https or ssh format. Both are given by GitHub. 
+- https (https://git...) doesn't require ssh keys to be setupt, and is fine if you just wnat to donwload, but in this case you will want to edit too.
+- ssh version (git@github...) will rquire you to set ssh keys beforehand, which you liekly allready have, and will need anyway, so use it.
+
 - git remote add origin git@github.com:yourname/yourrepo.git   <- You will see the exact address in GitHub  
 - git push -u origin main
 
