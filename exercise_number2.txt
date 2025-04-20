@@ -1,0 +1,94 @@
+Exercise number 2 in getting to know GIT and GitHub (.com or .fmi.fi)
+
+This time the aims are:  
+1 - Create your very own repository. Use some set of your own codes or other such suitable set of files.  
+1b - (Bonus) Add README.md and .gitignore files to complete the repository.  
+2 - Share the repository on GitHub (.com or .fmi.fi)  
+3 - Invite a collaborator to the repository (an actual colleague working on the same code, a fellow doing these exercises, or me (siirias on both GitHubs))  
+3b - (Bonus) Make at least one commit in addition to the initial one, to get some history for the repository  
+4 - Add at the end of this list (as in exercise 1) your name and link to your new repository to let everyone know of your skills.
+
+Having accomplished all these, you should be ready to go apply Git version control on your own codes,  
+and work together with others on them.
+
+Useful commands and other such things for this exercise:  
+All commands go to "Git Bash", which should be opened in the folder where your codebase is.
+
+git status          <- is always a good command once in a while to see what's the status of your repository.
+
+Part 1
+Locate or create the folder where your target codes are.
+
+(For the 1b bonus, you can add the .gitignore and README.md files as any other files in this folder.)  
+.gitignore has a list of files you don’t want to include in the repository, even if they are present,  
+e.g., *.jpg, *.png if you have output figures you don't want to keep adding to Git.  
+README.md is a simple text file that is shown on GitHub as the "cover page" when you look at the repository.  
+It’s a good idea to write a short description of the purpose of the codes included.
+
+git init                          <- Will create and initialize the new repository on your computer
+
+If this is first repository you do on this computer, it's good to define who you are:
+	git config --global user.name "Your Name"  
+	git config --global user.email "your@email.com"
+	(If you want to setup different persona for specific repository, jsut drop the --global away)
+
+git add .                         <- Adds every file in the folder (ignoring ones in the .gitignore)  
+git commit -m "Initial commit"   <- Makes the actual Git entry on your computer  
+git branch -M main               <- Makes sure the current branch name is 'main'. Sometimes it starts as 'master' and that can create problems later
+
+Part 2
+Here most of the work is done on GitHub (.com or .fmi.fi).  
+Make sure you have everything from the previous exercise: your GitHub account, SSH keys set up and working.  
+If you have problems with these, do ask Simo or Henry.
+
+First, create an empty repository:  
+- Find "Repositories" on your account. There is usually a green "NEW" button.  
+- Pick the owner (usually your username) and a name for the repository. This needs to be unique, so use your imagination.  
+- Choose public/private (if private, you need to invite people before they can see it).  
+- Create new repository.
+
+You will actually get instructions from GitHub now on how to link your repository.
+
+Basically, you need commands like these:  
+(These commands go in the same Git Bash, in the same directory as the earlier ones)
+
+- git remote add origin git@github.com:yourname/yourrepo.git   <- You will see the exact address in GitHub  
+- git push -u origin main
+
+Now you should be set with your new repository, and it's ready for the world to see!
+
+Part 3
+If your repository (repo, for short) is public, everyone should see it and be able to download it without any further actions on your side.  
+(GitHub.fmi.fi is visible only in the internal network though.)  
+But for letting others edit your codes, you need to give them permission.
+
+This is done as follows:  
+- Locate your repository settings (different from your account settings)  
+- Within, find "Collaborators"  
+- Click "Add People"  
+- Then you need to know the GitHub account of your colleague (or just use siirias, for Simo)  
+- The colleague needs to accept the invitation, coming likely to their email, or in GitHub if they happen to be active there  
+- Once accepted, they should be able to do commits on your repository, once they get it (like in exercise 1)
+
+For 3b, just work on your code a bit, make a new commit:
+
+git pull                           <- In case someone has made a change—someone else, or you on another computer  
+git add .                          <- Add everything new  
+git commit -m "describe what you did"   <- Create the new Git entry  
+git push                           <- Push everything to GitHub. If Part 1–2 are done, this should be it.
+
+Part 4
+This should go the same way as exercise 1.  
+Navigate to the repository of the old exercise, open the Git Bash.
+
+git pull    <- To get the latest version
+
+Open the text file… well, likley this one you are reading.  
+Edit your name and the link to your new repository below, then save the file.
+
+git add .  
+git commit -m "added name"  
+git push
+(Or, if you feel like experimenting githubs features, you can also try to find "edit" butten there on this file, and see how to make commit directly there)
+
+-- Newly created repositories --
