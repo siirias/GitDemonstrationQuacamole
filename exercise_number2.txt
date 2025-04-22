@@ -87,7 +87,7 @@ Navigate to the repository of the old exercise, open the Git Bash.
 
 git pull    <- To get the latest version
 
-Open the text file… well, likley this one you are reading.  
+Open the text file… well, likely this one you are reading.  
 Edit your name and the link to your new repository below, then save the file.
 
 git add .  
@@ -96,3 +96,4 @@ git push
 (Or, if you feel like experimenting githubs features, you can also try to find "edit" butten there on this file, and see how to make commit directly there)
 
 -- Newly created repositories --
+Jaakko github.com/iago9000/GitOrangeRepository
