@@ -99,3 +99,4 @@ git push
 Jaakko github.com/iago9000/GitOrangeRepository
 Heidi github.com/heidijs/gitexe
 Ulpu git@github.fmi.fi:leijalau/ulpundemorepo.git
+Milla github.fmi.fi/johanssm/wavemap-demo
