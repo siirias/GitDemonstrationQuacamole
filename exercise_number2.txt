@@ -98,3 +98,4 @@ git push
 -- Newly created repositories --
 Jaakko github.com/iago9000/GitOrangeRepository
 Heidi github.com/heidijs/gitexe
+Milla github.fmi.fi/johanssm/wavemap-demo
