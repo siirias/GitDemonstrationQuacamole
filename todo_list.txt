@@ -8,4 +8,5 @@
 - co-operating, pulling changes.
 - if time permits, resolving conflicts
 - next todo 
+- git good
 
