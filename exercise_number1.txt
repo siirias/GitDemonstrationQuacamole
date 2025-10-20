@@ -4,10 +4,27 @@ The exercise consists of the following parts:
 1 - Create an account (if you don't already have one) on github.com and/or github.fmi.fi (this will need help from IT)
 	Also note that acces to .fmi.fi requires you to be in internal network.
 
+	Also: for pushing changes GitHub requires identification, which is simplest to do with ssh keys.
+	process varies a bit on system. If you don't have one allready Create a key in terminal with:
+	ssh-keygen -t ed25519 -C "your e-mail"
+	locate your public key file, (something like ~/.ssh/id_ed25519.pub)
+	copy the content in your GitHub account  settings->SSH and GPG keys  -> new ssh key
+	After this git should recognize you.
+	that can be tested with:
+	ssh -T git@github.com
+	if it replies soemthing in line "Hi <your_name>! You've successfully authenticated, but GitHub does not provide shell access."
+	then everything is succesfull.
+
 2 - Locate and clone the practice repository:
 	https://github.fmi.fi/siirias/GitDemonstrationQuacamole
 	or
 	https://github.com/siirias/GitDemonstrationQuacamole
+	
+	*NOTE* you can clone the repository either through http or ssh.
+	http is sometimes fine, and doesn't require identification. But neither does it allow pushing.
+	So for this exercise PICK THE SSH version. (and make sure the identification is okay)
+	ONLY READ: http: https://github.com/siirias/GitDemonstrationQuacamole.git
+	LIKE THIS: ssh: git@github.com:siirias/GitDemonstrationQuacamole.git
 
 3 - From there you should find a file called exercise_number1.txt. Add your name to the list of persons successfully completing this exercise.
 
