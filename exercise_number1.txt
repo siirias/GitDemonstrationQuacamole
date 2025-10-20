@@ -1,4 +1,4 @@
-Exercice number 1 in getting to know GIT and Github (.com or .fmi.fi)
+Exercise number 1 in getting to know GIT and Github (.com or .fmi.fi)
 
 The exercise consists of the following parts:
 1 - Create an account (if you don't already have one) on github.com and/or github.fmi.fi (this will need help from IT)
@@ -63,4 +63,6 @@ Jaakko
 Ulpu
 Heidi
 Milla
+Jani
 Elina
+

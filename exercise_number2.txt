@@ -101,3 +101,5 @@ Heidi github.com/heidijs/gitexe
 Ulpu git@github.fmi.fi:leijalau/ulpundemorepo.git
 Milla github.fmi.fi/johanssm/wavemap-demo
 Ivia (a bit late...) github.com/IviaClosset/gitTest
+Jani github.fmi.fi/sarkkaj/mytest
+
